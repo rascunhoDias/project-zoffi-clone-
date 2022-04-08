@@ -1,0 +1,20 @@
+{
+    "name": "joao/zoffi",
+    "autoload": {
+        "psr-4": {
+            "Joao\\Zoffi\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rascunhoDias",
+            "email": "joao.bugad00@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "slim/twig-view": "^3.3"
+    }
+}
